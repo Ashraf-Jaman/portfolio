@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #09090b;
+  --foreground: #f4f4f5;
 }
 
 @theme inline {
@@ -12,15 +12,117 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+.scroll-drop-bounce {
+  animation: scroll-drop-bounce 1100ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: transform, opacity;
+}
+
+@keyframes scroll-drop-bounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-64px) scale(0.97);
+  }
+  62% {
+    opacity: 1;
+    transform: translateY(4px) scale(1.005);
+  }
+  80% {
+    transform: translateY(-1.5px) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.font-poppins {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1023px) {
+  .mobile-section-center > p {
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .scroll-drop-bounce > section > h1,
+  .scroll-drop-bounce > section > h2 {
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .mobile-actions-center {
+    justify-content: center;
+  }
+
+  section.mt-16.border-t {
+    text-align: center;
+  }
+
+  section.mt-16.border-t > div:first-child {
+    justify-content: center;
+  }
+
+  section.mt-16.border-t h2 {
+    margin-inline: auto;
+    font-size: clamp(2.4rem, 10vw, 5rem);
+  }
+
+  section.mt-16.border-t form {
+    text-align: left;
+  }
+}
+
+.nav-tooltip {
+  transform: translate(-50%, 14px) scaleY(0);
+  transform-origin: bottom center;
+  transition: opacity 320ms cubic-bezier(0.22, 1, 0.36, 1), transform 320ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.group:hover .nav-tooltip,
+.group:focus-visible .nav-tooltip {
+  animation: nav-tooltip-reveal 360ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes nav-tooltip-reveal {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 0) scaleY(0);
+    transform-origin: top center;
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 14px) scaleY(1);
+    transform-origin: top center;
+  }
+}
+
+::selection {
+  background: #d4d4d8;
+  color: #18181b;
 }
