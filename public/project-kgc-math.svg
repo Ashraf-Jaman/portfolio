@@ -1,0 +1,23 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" rx="28" fill="#0B192C"/>
+  <circle cx="320" cy="80" r="110" fill="#38BDF8" opacity=".25"/>
+  <circle cx="70" cy="310" r="90" fill="#6366F1" opacity=".3"/>
+  <rect x="42" y="60" width="316" height="230" rx="16" fill="#132338" stroke="#1E3A5F" stroke-width="2"/>
+  
+  <!-- Math Grid & Axis -->
+  <line x1="62" y1="175" x2="338" y2="175" stroke="#334E68" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="200" y1="80" x2="200" y2="270" stroke="#334E68" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Sine Wave / Math Curve -->
+  <path d="M70 175 Q 102 90 135 175 T 200 175 T 265 175 T 330 175" fill="none" stroke="#38BDF8" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Math Formula Symbols -->
+  <text x="75" y="115" fill="#93C5FD" font-family="system-ui, sans-serif" font-size="28" font-weight="800">∫ f(x)dx</text>
+  <text x="250" y="125" fill="#818CF8" font-family="system-ui, sans-serif" font-size="34" font-weight="900">∑</text>
+  <text x="290" y="135" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="22" font-weight="700">π</text>
+  <text x="80" y="250" fill="#64748B" font-family="system-ui, sans-serif" font-size="14" font-weight="600">KURIGRAM GOVT COLLEGE</text>
+
+  <!-- Title -->
+  <text x="42" y="348" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="28" font-weight="900" letter-spacing="1">KGC MATH</text>
+  <text x="42" y="375" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="2">DEPARTMENT PORTAL</text>
+</svg>

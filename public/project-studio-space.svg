@@ -1,0 +1,28 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" rx="28" fill="#180D2B"/>
+  <circle cx="310" cy="85" r="105" fill="#A855F7" opacity=".35"/>
+  <circle cx="80" cy="300" r="95" fill="#EC4899" opacity=".25"/>
+  <rect x="42" y="60" width="316" height="230" rx="16" fill="#24143D" stroke="#3B1C63" stroke-width="2"/>
+
+  <!-- Studio lights / Camera aperture graphic -->
+  <circle cx="200" cy="165" r="54" fill="#130824" stroke="#A855F7" stroke-width="4"/>
+  <circle cx="200" cy="165" r="32" fill="#EC4899" opacity=".7"/>
+  <circle cx="188" cy="153" r="10" fill="#FFFFFF" opacity=".8"/>
+
+  <!-- Soundwave / Frequency equalizer bars -->
+  <rect x="75" y="150" width="8" height="30" rx="4" fill="#C084FC"/>
+  <rect x="90" y="130" width="8" height="70" rx="4" fill="#A855F7"/>
+  <rect x="105" y="145" width="8" height="40" rx="4" fill="#EC4899"/>
+  <rect x="120" y="160" width="8" height="15" rx="4" fill="#F472B6"/>
+
+  <rect x="272" y="160" width="8" height="15" rx="4" fill="#F472B6"/>
+  <rect x="287" y="145" width="8" height="40" rx="4" fill="#EC4899"/>
+  <rect x="302" y="130" width="8" height="70" rx="4" fill="#A855F7"/>
+  <rect x="317" y="150" width="8" height="30" rx="4" fill="#C084FC"/>
+
+  <text x="80" y="250" fill="#A78BFA" font-family="system-ui, sans-serif" font-size="14" font-weight="600">STUDIO RENTAL &amp; BOOKING</text>
+
+  <!-- Title -->
+  <text x="42" y="348" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="28" font-weight="900" letter-spacing="1">STUDIO SPACE</text>
+  <text x="42" y="375" fill="#E879F9" font-family="system-ui, sans-serif" font-size="13" font-weight="700" letter-spacing="2">CREATIVE WORKSPACE PLATFORM</text>
+</svg>

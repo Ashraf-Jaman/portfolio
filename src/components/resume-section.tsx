@@ -17,7 +17,7 @@ export default function ResumeSection() {
         <div className="grid gap-8 px-6 py-8 sm:px-10 lg:grid-cols-[1.5fr_1fr]">
           <div>
             <ResumeBlock title="Experience"><ResumeJob title="Senior Full Stack Developer" meta="Independent · Remote · 2022 — Present">Designing and shipping production-ready applications with Next.js, Express, MongoDB, and TypeScript.</ResumeJob><ResumeJob title="Web Developer" meta="Digital Studio · 2019 — 2022">Built responsive websites, REST APIs, dashboards, and reusable component systems for growing teams.</ResumeJob></ResumeBlock>
-            <ResumeBlock title="Selected projects"><p className="text-sm leading-6 text-zinc-600">ShopSphere · TaskFlow · Devfolio</p></ResumeBlock>
+            <ResumeBlock title="Selected projects"><p className="text-sm leading-6 text-zinc-600">KGC Math · StudioSpace · BazarDor</p></ResumeBlock>
           </div>
           <aside><ResumeBlock title="Skills"><p className="text-sm leading-7 text-zinc-600">Next.js · Express.js · MongoDB · React · TypeScript · REST APIs · Node.js</p></ResumeBlock><ResumeBlock title="Tools"><p className="text-sm leading-7 text-zinc-600">VS Code · ChatGPT · Docker · GitHub · Postman · Vercel · Figma</p></ResumeBlock><ResumeBlock title="Education"><p className="text-sm font-bold">Computer Science & Engineering</p><p className="mt-1 text-sm text-zinc-500">2015 — 2019</p></ResumeBlock></aside>
         </div>
