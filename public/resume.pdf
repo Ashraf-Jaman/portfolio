@@ -15,67 +15,67 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 6 0 obj
-<< /Length 5582 >>
+<< /Length 5849 >>
 stream
-BT /F2 22 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 745 Tm (MD ASHRAF JAMAN HRIDOY) Tj ET
-BT /F2 12 Tf 0.12 0.38 0.76 rg 1 0 0 1 40 725 Tm (Frontend Developer \(Next.js / React\)) Tj ET
-BT /F1 8.5 Tf 0.25 0.25 0.28 rg 1 0 0 1 40 707 Tm (Location: Bangladesh   |   Phone: 01841390122   |   Email: ashrafjaman680@gmail.com   |) Tj ET
-BT /F1 8.5 Tf 0.25 0.25 0.28 rg 1 0 0 1 40 694 Tm (GitHub: github.com/Ashraf-Jaman   |   Portfolio: ashraf-jaman.vercel.app) Tj ET
-0.12 0.38 0.76 RG 1.8 w 40 680 m 572 680 l S
-BT /F2 11 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 658 Tm (PROFESSIONAL SUMMARY) Tj ET
-0.78 0.8 0.84 RG 0.75 w 40 653 m 572 653 l S
-BT /F1 9 Tf 0.22 0.22 0.25 rg 1 0 0 1 40 639 Tm (Motivated and detail-oriented Frontend Developer specializing in Next.js, React, HTML5, and CSS3. Skilled in) Tj ET
-BT /F1 9 Tf 0.22 0.22 0.25 rg 1 0 0 1 40 626 Tm (building responsive, high-performance web applications and converting Figma designs into functional,) Tj ET
-BT /F1 9 Tf 0.22 0.22 0.25 rg 1 0 0 1 40 613 Tm (accessible UI components. Experienced in project-based web development, state management, and REST API) Tj ET
-BT /F1 9 Tf 0.22 0.22 0.25 rg 1 0 0 1 40 600 Tm (integration while pursuing a Bachelor's degree in Mathematics.) Tj ET
-BT /F2 11 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 577 Tm (TECHNICAL SKILLS) Tj ET
-0.78 0.8 0.84 RG 0.75 w 40 572 m 572 572 l S
-BT /F2 9 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 558 Tm (Core Technologies:) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 175 558 Tm (HTML5, CSS3, JavaScript \(ES6+\), React.js, Next.js) Tj ET
-BT /F2 9 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 544 Tm (Styling & Layouts:) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 175 544 Tm (Tailwind CSS, CSS Modules, Flexbox, CSS Grid, Responsive Web Design) Tj ET
-BT /F2 9 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 530 Tm (Rendering & State:) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 175 530 Tm (SSR, Client Components, React Hooks, State Management) Tj ET
-BT /F2 9 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 516 Tm (Tools & Version Control:) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 175 516 Tm (Git, GitHub, Figma-to-Code Conversion, REST API Integration) Tj ET
-BT /F2 9 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 502 Tm (Best Practices:) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 175 502 Tm (Cross-Browser Compatibility, Performance Optimization, Accessibility) Tj ET
-BT /F2 11 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 478 Tm (FEATURED PROJECTS) Tj ET
-0.78 0.8 0.84 RG 0.75 w 40 473 m 572 473 l S
-BT /F2 10 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 459 Tm (KGC Math — Educational Platform) Tj ET
-BT /F1 9 Tf 0.12 0.38 0.76 rg 1 0 0 1 470 459 Tm (Live Demo | GitHub) Tj ET
-BT /F1 8.5 Tf 0.4 0.4 0.44 rg 1 0 0 1 40 447 Tm (Tech Stack: Next.js, HTML5, CSS Modules / Tailwind CSS) Tj ET
-BT /F2 9 Tf 0.2 0.2 0.25 rg 1 0 0 1 48 435 Tm (•) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 58 435 Tm (Developed an intuitive educational frontend platform dedicated to mathematics study resources.) Tj ET
-BT /F2 9 Tf 0.2 0.2 0.25 rg 1 0 0 1 48 422.5 Tm (•) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 58 422.5 Tm (Structured modular, reusable React components to ensure optimal page load performance and accessibility.) Tj ET
-BT /F2 10 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 402 Tm (Studio Space — Digital Agency Frontend) Tj ET
-BT /F1 9 Tf 0.12 0.38 0.76 rg 1 0 0 1 470 402 Tm (Live Demo | GitHub) Tj ET
-BT /F1 8.5 Tf 0.4 0.4 0.44 rg 1 0 0 1 40 390 Tm (Tech Stack: Next.js, React, Modern CSS Layouts) Tj ET
-BT /F2 9 Tf 0.2 0.2 0.25 rg 1 0 0 1 48 378 Tm (•) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 58 378 Tm (Converted complex UI layout designs into pixel-perfect, fully responsive client-side pages.) Tj ET
-BT /F2 9 Tf 0.2 0.2 0.25 rg 1 0 0 1 48 365.5 Tm (•) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 58 365.5 Tm (Applied Next.js routing and UI interactive elements for smooth client navigation across screen sizes.) Tj ET
-BT /F2 10 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 345 Tm (Bazar Dor — Daily Market Price Tracker) Tj ET
-BT /F1 9 Tf 0.12 0.38 0.76 rg 1 0 0 1 470 345 Tm (Live Demo | GitHub) Tj ET
-BT /F1 8.5 Tf 0.4 0.4 0.44 rg 1 0 0 1 40 333 Tm (Tech Stack: Next.js, React, JavaScript, Tailwind CSS) Tj ET
-BT /F2 9 Tf 0.2 0.2 0.25 rg 1 0 0 1 48 321 Tm (•) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 58 321 Tm (Built a responsive web application to track daily commodity market prices with dynamic UI rendering.) Tj ET
-BT /F2 9 Tf 0.2 0.2 0.25 rg 1 0 0 1 48 308.5 Tm (•) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 58 308.5 Tm (Implemented clean state management and search filtering logic for seamlessly viewing product rates.) Tj ET
-BT /F2 11 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 288 Tm (EDUCATION) Tj ET
-0.78 0.8 0.84 RG 0.75 w 40 283 m 572 283 l S
-BT /F2 9.5 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 269 Tm (Bachelor of Science \(B.Sc\) in Mathematics) Tj ET
-BT /F1 9 Tf 0.35 0.35 0.4 rg 1 0 0 1 480 269 Tm (1st Year \(Ongoing\)) Tj ET
-BT /F2 9.5 Tf 0.12 0.38 0.76 rg 1 0 0 1 40 257 Tm (National University, Bangladesh) Tj ET
-BT /F2 9 Tf 0.2 0.2 0.25 rg 1 0 0 1 48 245 Tm (•) Tj ET
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 58 245 Tm (Currently pursuing undergraduate studies in Mathematics with a focus on analytical thinking and problem-solving skills.) Tj ET
-BT /F2 11 Tf 0.1 0.12 0.15 rg 1 0 0 1 40 231 Tm (LANGUAGES) Tj ET
-0.78 0.8 0.84 RG 0.75 w 40 226 m 572 226 l S
-BT /F1 9 Tf 0.25 0.25 0.28 rg 1 0 0 1 40 212 Tm (Bengali: Native   |   English: Professional Working Proficiency) Tj ET
+BT /F2 22 Tf 0.08 0.08 0.1 rg 1 0 0 1 40 746 Tm (MD ASHRAF JAMAN HRIDOY) Tj ET
+BT /F2 12 Tf 0.15 0.15 0.18 rg 1 0 0 1 40 726 Tm (Full Stack Web Developer) Tj ET
+BT /F1 8.5 Tf 0.22 0.22 0.25 rg 1 0 0 1 40 709 Tm (Location: Bangladesh   |   Phone: 01841390122   |   Email: ashrafjaman680@gmail.com) Tj ET
+BT /F1 8.5 Tf 0.22 0.22 0.25 rg 1 0 0 1 40 696 Tm (GitHub: github.com/Ashraf-Jaman   |   Portfolio: ashraf-jaman.vercel.app   |   LinkedIn: linkedin.com/in/ashraf-jaman) Tj ET
+0.15 0.15 0.18 RG 1.5 w 40 682 m 572 682 l S
+BT /F2 10.5 Tf 0.08 0.08 0.1 rg 1 0 0 1 40 662 Tm (PROFESSIONAL SUMMARY) Tj ET
+0.75 0.75 0.78 RG 0.75 w 40 657 m 572 657 l S
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 40 644 Tm (Motivated and detail-oriented Full Stack Web Developer proficient in building responsive front-end interfaces and robust) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 40 632 Tm (back-end systems using Node.js, Express.js, and MongoDB. Experienced in API integration, authentication, modern state) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 40 620 Tm (management, and deploying scalable web applications with clean architecture. Dedicated to writing maintainable code) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 40 608 Tm (and solving complex computational problems while pursuing a B.Sc in Mathematics.) Tj ET
+BT /F2 10.5 Tf 0.08 0.08 0.1 rg 1 0 0 1 40 588 Tm (TECHNICAL SKILLS) Tj ET
+0.75 0.75 0.78 RG 0.75 w 40 583 m 572 583 l S
+BT /F2 8.5 Tf 0.1 0.1 0.12 rg 1 0 0 1 40 570 Tm (Frontend & UI:) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 175 570 Tm (HTML5, CSS3, JavaScript \(ES6+\), React.js, Next.js, Tailwind CSS, shadcn/ui, Flexbox, Grid) Tj ET
+BT /F2 8.5 Tf 0.1 0.1 0.12 rg 1 0 0 1 40 556.5 Tm (Backend & Database:) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 175 556.5 Tm (Node.js, Express.js, MongoDB, REST APIs, JWT, CORS, Better Auth, Zod Validation) Tj ET
+BT /F2 8.5 Tf 0.1 0.1 0.12 rg 1 0 0 1 40 543 Tm (Tools & DevOps:) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 175 543 Tm (Git, GitHub, Postman, Docker, Figma-to-Code Conversion) Tj ET
+BT /F2 8.5 Tf 0.1 0.1 0.12 rg 1 0 0 1 40 529.5 Tm (AI & Developer Tools:) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 175 529.5 Tm (Claude, Codex, Copilot, OpenCode, ChatGPT, Antigravity, Gemini) Tj ET
+BT /F2 8.5 Tf 0.1 0.1 0.12 rg 1 0 0 1 40 516 Tm (Best Practices:) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 175 516 Tm (SSR, State Management, Cross-Browser Compatibility, Optimization, Accessibility) Tj ET
+BT /F2 10.5 Tf 0.08 0.08 0.1 rg 1 0 0 1 40 494.5 Tm (FEATURED PROJECTS) Tj ET
+0.75 0.75 0.78 RG 0.75 w 40 489.5 m 572 489.5 l S
+BT /F2 9.5 Tf 0.08 0.08 0.1 rg 1 0 0 1 40 476.5 Tm (KGC Math - Educational Platform) Tj ET
+BT /F1 8.5 Tf 0.15 0.15 0.18 rg 1 0 0 1 472 476.5 Tm (Live Demo | GitHub) Tj ET
+BT /F1 8 Tf 0.38 0.38 0.42 rg 1 0 0 1 40 465 Tm (Tech Stack: Next.js, HTML5, CSS Modules / Tailwind CSS, Node.js) Tj ET
+BT /F2 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 48 453.5 Tm (•) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 58 453.5 Tm (Developed an intuitive educational frontend platform dedicated to mathematics study resources.) Tj ET
+BT /F2 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 48 441.5 Tm (•) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 58 441.5 Tm (Structured modular, reusable React components to ensure optimal page load performance and accessibility.) Tj ET
+BT /F2 9.5 Tf 0.08 0.08 0.1 rg 1 0 0 1 40 423.5 Tm (Studio Space - Digital Agency Frontend) Tj ET
+BT /F1 8.5 Tf 0.15 0.15 0.18 rg 1 0 0 1 472 423.5 Tm (Live Demo | GitHub) Tj ET
+BT /F1 8 Tf 0.38 0.38 0.42 rg 1 0 0 1 40 412 Tm (Tech Stack: Next.js, React, Modern CSS Layouts, Express.js) Tj ET
+BT /F2 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 48 400.5 Tm (•) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 58 400.5 Tm (Converted complex UI layout designs into pixel-perfect, fully responsive client-side pages.) Tj ET
+BT /F2 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 48 388.5 Tm (•) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 58 388.5 Tm (Applied Next.js routing and UI interactive elements for smooth client navigation across screen sizes.) Tj ET
+BT /F2 9.5 Tf 0.08 0.08 0.1 rg 1 0 0 1 40 370.5 Tm (Bazar Dor - Daily Market Price Tracker) Tj ET
+BT /F1 8.5 Tf 0.15 0.15 0.18 rg 1 0 0 1 472 370.5 Tm (Live Demo | GitHub) Tj ET
+BT /F1 8 Tf 0.38 0.38 0.42 rg 1 0 0 1 40 359 Tm (Tech Stack: Next.js, React, JavaScript, Tailwind CSS, MongoDB) Tj ET
+BT /F2 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 48 347.5 Tm (•) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 58 347.5 Tm (Built a responsive web application to track daily commodity market prices with dynamic UI rendering.) Tj ET
+BT /F2 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 48 335.5 Tm (•) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 58 335.5 Tm (Implemented clean state management and search filtering logic for seamlessly viewing product rates.) Tj ET
+BT /F2 10.5 Tf 0.08 0.08 0.1 rg 1 0 0 1 40 317.5 Tm (EDUCATION) Tj ET
+0.75 0.75 0.78 RG 0.75 w 40 312.5 m 572 312.5 l S
+BT /F2 9 Tf 0.08 0.08 0.1 rg 1 0 0 1 40 299.5 Tm (Bachelor of Science \(B.Sc\) in Mathematics) Tj ET
+BT /F1 8.5 Tf 0.3 0.3 0.35 rg 1 0 0 1 480 299.5 Tm (2nd Year \(Ongoing\)) Tj ET
+BT /F2 9 Tf 0.15 0.15 0.18 rg 1 0 0 1 40 288 Tm (National University, Bangladesh) Tj ET
+BT /F2 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 48 276.5 Tm (•) Tj ET
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 58 276.5 Tm (Currently pursuing undergraduate studies in Mathematics with a focus on analytical thinking and problem-solving skills.) Tj ET
+BT /F2 10.5 Tf 0.08 0.08 0.1 rg 1 0 0 1 40 262.5 Tm (LANGUAGES) Tj ET
+0.75 0.75 0.78 RG 0.75 w 40 257.5 m 572 257.5 l S
+BT /F1 8.5 Tf 0.2 0.2 0.24 rg 1 0 0 1 40 244.5 Tm (Bengali: Native   |   English: Professional Working Proficiency) Tj ET
 0.85 0.85 0.88 RG 0.5 w 40 42 m 572 42 l S
-BT /F1 8 Tf 0.5 0.5 0.55 rg 1 0 0 1 40 30 Tm (Md Ashraf Jaman Hridoy — Resume) Tj ET
-BT /F1 8 Tf 0.5 0.5 0.55 rg 1 0 0 1 525 30 Tm (Page 1 of 1) Tj ET
+BT /F1 8 Tf 0.45 0.45 0.5 rg 1 0 0 1 40 30 Tm (Md Ashraf Jaman Hridoy Resume) Tj ET
+BT /F1 8 Tf 0.45 0.45 0.5 rg 1 0 0 1 525 30 Tm (Page 1 of 1) Tj ET
 endstream
 endobj
 xref
@@ -90,5 +90,5 @@ xref
 trailer
 << /Size 7 /Root 1 0 R >>
 startxref
-6030
+6297
 %%EOF

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ArrowUpRight } from "@/components/icons";
 
 export default function ResumeSection() {
@@ -23,8 +22,8 @@ export default function ResumeSection() {
           <h1 className="text-3xl font-black uppercase tracking-tight text-zinc-950 sm:text-5xl">
             Md Ashraf Jaman Hridoy
           </h1>
-          <p className="mt-2 text-base font-bold text-blue-600 sm:text-lg">
-            Frontend Developer (Next.js / React)
+          <p className="mt-2 text-base font-bold text-zinc-800 sm:text-lg">
+            Full Stack Web Developer
           </p>
 
           <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs font-medium text-zinc-600">
@@ -34,9 +33,11 @@ export default function ResumeSection() {
             <span className="hidden sm:inline text-zinc-300">|</span>
             <span>Email: <a href="mailto:ashrafjaman680@gmail.com" className="font-semibold text-zinc-800 hover:text-orange-600">ashrafjaman680@gmail.com</a></span>
             <span className="hidden sm:inline text-zinc-300">|</span>
-            <span>GitHub: <a href="https://github.com/Ashraf-Jaman" target="_blank" rel="noreferrer" className="font-semibold text-blue-600 hover:underline">github.com/Ashraf-Jaman</a></span>
+            <span>GitHub: <a href="https://github.com/Ashraf-Jaman" target="_blank" rel="noreferrer" className="font-semibold text-zinc-900 underline hover:text-orange-600">github.com/Ashraf-Jaman</a></span>
             <span className="hidden sm:inline text-zinc-300">|</span>
-            <span>Portfolio: <a href="https://ashraf-jaman.vercel.app" target="_blank" rel="noreferrer" className="font-semibold text-blue-600 hover:underline">ashraf-jaman.vercel.app</a></span>
+            <span>Portfolio: <a href="https://ashraf-jaman.vercel.app" target="_blank" rel="noreferrer" className="font-semibold text-zinc-900 underline hover:text-orange-600">ashraf-jaman.vercel.app</a></span>
+            <span className="hidden sm:inline text-zinc-300">|</span>
+            <span>LinkedIn: <a href="https://www.linkedin.com/in/ashraf-jaman" target="_blank" rel="noreferrer" className="font-semibold text-zinc-900 underline hover:text-orange-600">linkedin.com/in/ashraf-jaman</a></span>
           </div>
         </header>
 
@@ -44,7 +45,7 @@ export default function ResumeSection() {
           {/* Professional Summary */}
           <ResumeSectionBlock title="Professional Summary">
             <p className="text-sm leading-relaxed text-zinc-700">
-              Motivated and detail-oriented Frontend Developer specializing in Next.js, React, HTML5, and CSS3. Skilled in building responsive, high-performance web applications and converting Figma designs into functional, accessible UI components. Experienced in project-based web development, state management, and REST API integration while pursuing a Bachelor&apos;s degree in Mathematics.
+              Motivated and detail-oriented Full Stack Web Developer proficient in building responsive front-end interfaces and robust back-end systems using Node.js, Express.js, and MongoDB. Experienced in API integration, authentication, modern state management, and deploying scalable web applications with clean architecture. Dedicated to writing maintainable code and solving complex computational problems while pursuing a B.Sc in Mathematics.
             </p>
           </ResumeSectionBlock>
 
@@ -52,24 +53,24 @@ export default function ResumeSection() {
           <ResumeSectionBlock title="Technical Skills">
             <div className="grid gap-2.5 text-sm">
               <SkillRow
-                category="Core Technologies"
-                items="HTML5, CSS3, JavaScript (ES6+), React.js, Next.js"
+                category="Frontend & UI"
+                items="HTML5, CSS3, JavaScript (ES6+), React.js, Next.js, Tailwind CSS, shadcn/ui, Flexbox, Grid"
               />
               <SkillRow
-                category="Styling & Layouts"
-                items="Tailwind CSS, CSS Modules, Flexbox, CSS Grid, Responsive Web Design"
+                category="Backend & Database"
+                items="Node.js, Express.js, MongoDB, REST APIs, JWT, CORS, Better Auth, Zod Validation"
               />
               <SkillRow
-                category="Rendering & State"
-                items="SSR, Client Components, React Hooks, State Management"
+                category="Tools & DevOps"
+                items="Git, GitHub, Postman, Docker, Figma-to-Code Conversion"
               />
               <SkillRow
-                category="Tools & Version Control"
-                items="Git, GitHub, Figma-to-Code Conversion, REST API Integration"
+                category="AI & Developer Tools"
+                items="Claude, Codex, Copilot, OpenCode, ChatGPT, Antigravity, Gemini"
               />
               <SkillRow
                 category="Best Practices"
-                items="Cross-Browser Compatibility, Performance Optimization, Accessibility"
+                items="SSR, State Management, Cross-Browser Compatibility, Optimization, Accessibility"
               />
             </div>
           </ResumeSectionBlock>
@@ -82,7 +83,7 @@ export default function ResumeSection() {
                 category="Educational Platform"
                 liveUrl="https://kgc-math.vercel.app/"
                 githubUrl="https://github.com/Ashraf-Jaman/kgc-math"
-                stack="Next.js, HTML5, CSS Modules / Tailwind CSS"
+                stack="Next.js, HTML5, CSS Modules / Tailwind CSS, Node.js"
                 bullets={[
                   "Developed an intuitive educational frontend platform dedicated to mathematics study resources.",
                   "Structured modular, reusable React components to ensure optimal page load performance and accessibility.",
@@ -94,7 +95,7 @@ export default function ResumeSection() {
                 category="Digital Agency Frontend"
                 liveUrl="https://studio-space-frontend-beta.vercel.app/"
                 githubUrl="https://github.com/Ashraf-Jaman/studio-space-frontend"
-                stack="Next.js, React, Modern CSS Layouts"
+                stack="Next.js, React, Modern CSS Layouts, Express.js"
                 bullets={[
                   "Converted complex UI layout designs into pixel-perfect, fully responsive client-side pages.",
                   "Applied Next.js routing and UI interactive elements for smooth client navigation across screen sizes.",
@@ -106,7 +107,7 @@ export default function ResumeSection() {
                 category="Daily Market Price Tracker"
                 liveUrl="https://bazar-dor-five-theta.vercel.app/"
                 githubUrl="https://github.com/Ashraf-Jaman/bazar-dor"
-                stack="Next.js, React, JavaScript, Tailwind CSS"
+                stack="Next.js, React, JavaScript, Tailwind CSS, MongoDB"
                 bullets={[
                   "Built a responsive web application to track daily commodity market prices with dynamic UI rendering.",
                   "Implemented clean state management and search filtering logic for seamlessly viewing product rates.",
@@ -123,10 +124,10 @@ export default function ResumeSection() {
                   Bachelor of Science (B.Sc) in Mathematics
                 </h3>
                 <span className="text-xs font-semibold text-zinc-500">
-                  1st Year (Ongoing)
+                  2nd Year (Ongoing)
                 </span>
               </div>
-              <p className="mt-0.5 text-sm font-semibold text-blue-600">
+              <p className="mt-0.5 text-sm font-semibold text-zinc-800">
                 National University, Bangladesh
               </p>
               <ul className="mt-2 list-disc pl-5 text-sm text-zinc-700">
@@ -205,12 +206,12 @@ function ProjectEntry({
           {name}{" "}
           <span className="text-xs font-normal text-zinc-500">— {category}</span>
         </h3>
-        <div className="flex items-center gap-3 text-xs font-semibold text-blue-600">
+        <div className="flex items-center gap-3 text-xs font-semibold text-zinc-900">
           <a
             href={liveUrl}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-0.5 hover:underline"
+            className="inline-flex items-center gap-0.5 underline hover:text-orange-600"
           >
             Live Demo <ArrowUpRight size={12} />
           </a>
@@ -219,7 +220,7 @@ function ProjectEntry({
             href={githubUrl}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-0.5 hover:underline"
+            className="inline-flex items-center gap-0.5 underline hover:text-orange-600"
           >
             GitHub <ArrowUpRight size={12} />
           </a>

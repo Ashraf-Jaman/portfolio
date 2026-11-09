@@ -25,84 +25,84 @@ function createPdfGenerator() {
 const { addText, addLine, lines } = createPdfGenerator();
 
 // Page size: 612 x 792 (Letter)
-let y = 745;
+let y = 746;
 
-// Header: Name & Role
-addText(40, y, 22, "MD ASHRAF JAMAN HRIDOY", "0.1 0.12 0.15", "F2");
+// Center/Left Header: Name & Role (matching screenshot layout)
+addText(40, y, 22, "MD ASHRAF JAMAN HRIDOY", "0.08 0.08 0.1", "F2");
 y -= 20;
-addText(40, y, 12, "Frontend Developer (Next.js / React)", "0.12 0.38 0.76", "F2");
-y -= 18;
+addText(40, y, 12, "Full Stack Web Developer", "0.15 0.15 0.18", "F2");
+y -= 17;
 
 // Contact info
-const contact1 = "Location: Bangladesh   |   Phone: 01841390122   |   Email: ashrafjaman680@gmail.com   |";
-addText(40, y, 8.5, contact1, "0.25 0.25 0.28", "F1");
+const contact1 = "Location: Bangladesh   |   Phone: 01841390122   |   Email: ashrafjaman680@gmail.com";
+addText(40, y, 8.5, contact1, "0.22 0.22 0.25", "F1");
 y -= 13;
-const contact2 = "GitHub: github.com/Ashraf-Jaman   |   Portfolio: ashraf-jaman.vercel.app";
-addText(40, y, 8.5, contact2, "0.25 0.25 0.28", "F1");
+const contact2 = "GitHub: github.com/Ashraf-Jaman   |   Portfolio: ashraf-jaman.vercel.app   |   LinkedIn: linkedin.com/in/ashraf-jaman";
+addText(40, y, 8.5, contact2, "0.22 0.22 0.25", "F1");
 y -= 14;
 
-// Accent blue line
-addLine(40, y, 572, y, "0.12 0.38 0.76", 1.8);
-y -= 22;
+// Divider line
+addLine(40, y, 572, y, "0.15 0.15 0.18", 1.5);
+y -= 20;
 
 function sectionHeading(title) {
-  addText(40, y, 11, title, "0.1 0.12 0.15", "F2");
+  addText(40, y, 10.5, title, "0.08 0.08 0.1", "F2");
   y -= 5;
-  addLine(40, y, 572, y, "0.78 0.8 0.84", 0.75);
-  y -= 14;
+  addLine(40, y, 572, y, "0.75 0.75 0.78", 0.75);
+  y -= 13;
 }
 
 // 1. PROFESSIONAL SUMMARY
 sectionHeading("PROFESSIONAL SUMMARY");
 const summaryLines = [
-  "Motivated and detail-oriented Frontend Developer specializing in Next.js, React, HTML5, and CSS3. Skilled in",
-  "building responsive, high-performance web applications and converting Figma designs into functional,",
-  "accessible UI components. Experienced in project-based web development, state management, and REST API",
-  "integration while pursuing a Bachelor's degree in Mathematics."
+  "Motivated and detail-oriented Full Stack Web Developer proficient in building responsive front-end interfaces and robust",
+  "back-end systems using Node.js, Express.js, and MongoDB. Experienced in API integration, authentication, modern state",
+  "management, and deploying scalable web applications with clean architecture. Dedicated to writing maintainable code",
+  "and solving complex computational problems while pursuing a B.Sc in Mathematics."
 ];
 summaryLines.forEach((line) => {
-  addText(40, y, 9, line, "0.22 0.22 0.25", "F1");
-  y -= 13;
+  addText(40, y, 8.5, line, "0.2 0.2 0.24", "F1");
+  y -= 12;
 });
-y -= 10;
+y -= 8;
 
 // 2. TECHNICAL SKILLS
 sectionHeading("TECHNICAL SKILLS");
 const skills = [
-  ["Core Technologies:", "HTML5, CSS3, JavaScript (ES6+), React.js, Next.js"],
-  ["Styling & Layouts:", "Tailwind CSS, CSS Modules, Flexbox, CSS Grid, Responsive Web Design"],
-  ["Rendering & State:", "SSR, Client Components, React Hooks, State Management"],
-  ["Tools & Version Control:", "Git, GitHub, Figma-to-Code Conversion, REST API Integration"],
-  ["Best Practices:", "Cross-Browser Compatibility, Performance Optimization, Accessibility"]
+  ["Frontend & UI:", "HTML5, CSS3, JavaScript (ES6+), React.js, Next.js, Tailwind CSS, shadcn/ui, Flexbox, Grid"],
+  ["Backend & Database:", "Node.js, Express.js, MongoDB, REST APIs, JWT, CORS, Better Auth, Zod Validation"],
+  ["Tools & DevOps:", "Git, GitHub, Postman, Docker, Figma-to-Code Conversion"],
+  ["AI & Developer Tools:", "Claude, Codex, Copilot, OpenCode, ChatGPT, Antigravity, Gemini"],
+  ["Best Practices:", "SSR, State Management, Cross-Browser Compatibility, Optimization, Accessibility"]
 ];
 skills.forEach(([category, list]) => {
-  addText(40, y, 9, category, "0.1 0.12 0.15", "F2");
-  addText(175, y, 9, list, "0.25 0.25 0.28", "F1");
-  y -= 14;
+  addText(40, y, 8.5, category, "0.1 0.1 0.12", "F2");
+  addText(175, y, 8.5, list, "0.2 0.2 0.24", "F1");
+  y -= 13.5;
 });
-y -= 10;
+y -= 8;
 
 // 3. FEATURED PROJECTS
 sectionHeading("FEATURED PROJECTS");
 
 function addProject(title, category, stack, bullets) {
-  addText(40, y, 10, `${title} — ${category}`, "0.1 0.12 0.15", "F2");
-  addText(470, y, 9, "Live Demo | GitHub", "0.12 0.38 0.76", "F1");
-  y -= 12;
-  addText(40, y, 8.5, `Tech Stack: ${stack}`, "0.4 0.4 0.44", "F1");
-  y -= 12;
+  addText(40, y, 9.5, `${title} - ${category}`, "0.08 0.08 0.1", "F2");
+  addText(472, y, 8.5, "Live Demo | GitHub", "0.15 0.15 0.18", "F1");
+  y -= 11.5;
+  addText(40, y, 8, `Tech Stack: ${stack}`, "0.38 0.38 0.42", "F1");
+  y -= 11.5;
   bullets.forEach((b) => {
-    addText(48, y, 9, "•", "0.2 0.2 0.25", "F2");
-    addText(58, y, 9, b, "0.25 0.25 0.28", "F1");
-    y -= 12.5;
+    addText(48, y, 8.5, "•", "0.2 0.2 0.24", "F2");
+    addText(58, y, 8.5, b, "0.2 0.2 0.24", "F1");
+    y -= 12;
   });
-  y -= 8;
+  y -= 6;
 }
 
 addProject(
   "KGC Math",
   "Educational Platform",
-  "Next.js, HTML5, CSS Modules / Tailwind CSS",
+  "Next.js, HTML5, CSS Modules / Tailwind CSS, Node.js",
   [
     "Developed an intuitive educational frontend platform dedicated to mathematics study resources.",
     "Structured modular, reusable React components to ensure optimal page load performance and accessibility."
@@ -112,7 +112,7 @@ addProject(
 addProject(
   "Studio Space",
   "Digital Agency Frontend",
-  "Next.js, React, Modern CSS Layouts",
+  "Next.js, React, Modern CSS Layouts, Express.js",
   [
     "Converted complex UI layout designs into pixel-perfect, fully responsive client-side pages.",
     "Applied Next.js routing and UI interactive elements for smooth client navigation across screen sizes."
@@ -122,7 +122,7 @@ addProject(
 addProject(
   "Bazar Dor",
   "Daily Market Price Tracker",
-  "Next.js, React, JavaScript, Tailwind CSS",
+  "Next.js, React, JavaScript, Tailwind CSS, MongoDB",
   [
     "Built a responsive web application to track daily commodity market prices with dynamic UI rendering.",
     "Implemented clean state management and search filtering logic for seamlessly viewing product rates."
@@ -131,24 +131,24 @@ addProject(
 
 // 4. EDUCATION
 sectionHeading("EDUCATION");
-addText(40, y, 9.5, "Bachelor of Science (B.Sc) in Mathematics", "0.1 0.12 0.15", "F2");
-addText(480, y, 9, "1st Year (Ongoing)", "0.35 0.35 0.4", "F1");
-y -= 12;
-addText(40, y, 9.5, "National University, Bangladesh", "0.12 0.38 0.76", "F2");
-y -= 12;
-addText(48, y, 9, "•", "0.2 0.2 0.25", "F2");
-addText(58, y, 9, "Currently pursuing undergraduate studies in Mathematics with a focus on analytical thinking and problem-solving skills.", "0.25 0.25 0.28", "F1");
+addText(40, y, 9, "Bachelor of Science (B.Sc) in Mathematics", "0.08 0.08 0.1", "F2");
+addText(480, y, 8.5, "2nd Year (Ongoing)", "0.3 0.3 0.35", "F1");
+y -= 11.5;
+addText(40, y, 9, "National University, Bangladesh", "0.15 0.15 0.18", "F2");
+y -= 11.5;
+addText(48, y, 8.5, "•", "0.2 0.2 0.24", "F2");
+addText(58, y, 8.5, "Currently pursuing undergraduate studies in Mathematics with a focus on analytical thinking and problem-solving skills.", "0.2 0.2 0.24", "F1");
 y -= 14;
 
 // 5. LANGUAGES
 sectionHeading("LANGUAGES");
-addText(40, y, 9, "Bengali: Native   |   English: Professional Working Proficiency", "0.25 0.25 0.28", "F1");
-y -= 22;
+addText(40, y, 8.5, "Bengali: Native   |   English: Professional Working Proficiency", "0.2 0.2 0.24", "F1");
+y -= 20;
 
 // Footer
 addLine(40, 42, 572, 42, "0.85 0.85 0.88", 0.5);
-addText(40, 30, 8, "Md Ashraf Jaman Hridoy — Resume", "0.5 0.5 0.55", "F1");
-addText(525, 30, 8, "Page 1 of 1", "0.5 0.5 0.55", "F1");
+addText(40, 30, 8, "Md Ashraf Jaman Hridoy Resume", "0.45 0.45 0.5", "F1");
+addText(525, 30, 8, "Page 1 of 1", "0.45 0.45 0.5", "F1");
 
 const stream = lines.join("\n");
 const objects = [
